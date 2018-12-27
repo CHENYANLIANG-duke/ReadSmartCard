@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadSCard", "ReadSCard\ReadSCard.csproj", "{914B6F45-699E-4B94-B539-596111EB2A9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dll", "dll", "{DE6FF329-3BAF-42D2-9876-C1E187575C4C}"
+	ProjectSection(SolutionItems) = preProject
+		ReadSCard\DLL\GS.Apdu.dll = ReadSCard\DLL\GS.Apdu.dll
+		ReadSCard\DLL\GS.CSharpPCSC.dll = ReadSCard\DLL\GS.CSharpPCSC.dll
+		ReadSCard\DLL\GS.HexLibrary.dll = ReadSCard\DLL\GS.HexLibrary.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "printerconfig", "printerconfig", "{FFDCC5E7-0F84-4281-810F-E2B9B6555C7F}"
+	ProjectSection(SolutionItems) = preProject
+		ReadSCard\bin\Debug\printconfig\TranE.exe = ReadSCard\bin\Debug\printconfig\TranE.exe
+		ReadSCard\bin\Debug\printconfig\Yk.fmt = ReadSCard\bin\Debug\printconfig\Yk.fmt
+		ReadSCard\bin\Debug\printconfig\YK.TXT = ReadSCard\bin\Debug\printconfig\YK.TXT
+		ReadSCard\bin\Debug\printconfig\zebra.bat = ReadSCard\bin\Debug\printconfig\zebra.bat
+		ReadSCard\bin\Debug\printconfig\ZEBRA.INI = ReadSCard\bin\Debug\printconfig\ZEBRA.INI
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{914B6F45-699E-4B94-B539-596111EB2A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{914B6F45-699E-4B94-B539-596111EB2A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{914B6F45-699E-4B94-B539-596111EB2A9B}.Debug|x64.ActiveCfg = Debug|x64
+		{914B6F45-699E-4B94-B539-596111EB2A9B}.Debug|x64.Build.0 = Debug|x64
+		{914B6F45-699E-4B94-B539-596111EB2A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{914B6F45-699E-4B94-B539-596111EB2A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{914B6F45-699E-4B94-B539-596111EB2A9B}.Release|x64.ActiveCfg = Release|x64
+		{914B6F45-699E-4B94-B539-596111EB2A9B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E316598-CEF7-4393-9AFE-F352AE0CFA43}
+	EndGlobalSection
+EndGlobal

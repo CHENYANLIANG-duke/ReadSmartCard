@@ -65,8 +65,8 @@ namespace ReadSCard
 
                 //健保卡ID
                 textBox1.Text = Encoding.Default.GetString(respApdu2, 0, 12);
-                //姓名
-                textBox2.Text = Encoding.Default.GetString(respApdu2, 12, 6);
+                //姓名  8個bit 因為有些姓氏4個字
+                textBox2.Text = Encoding.Default.GetString(respApdu2, 12, 8); 
                 //身份証字號
                 textBox3.Text = Encoding.Default.GetString(respApdu2, 32, 10);
                 //生日
